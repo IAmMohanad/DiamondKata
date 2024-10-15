@@ -100,11 +100,7 @@ namespace DiamondKata.Tests.PropertyBased
             });
         }
 
-        /// <summary>
-        /// Helper method to split the generated output into lines.
-        /// </summary>
-        /// <param name="output">The generated diamond string.</param>
-        /// <returns>A list of lines from the output.</returns>
+        // Helper method to split the generated output into lines.
         private List<string> GetOutputLines(string output)
         {
             var outputLines = new List<string>();

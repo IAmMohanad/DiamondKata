@@ -11,11 +11,7 @@ public class DiamondGenerator
         _writer = writer;
     }
 
-    /// <summary>
-    /// Generates a diamond pattern with the given character as the midpoint.
-    /// </summary>
-    /// <param name="c">The character at the midpoint of the diamond.</param>
-    /// <exception cref="ArgumentOutOfRangeException">Thrown when the input character is not between 'A' and 'Z'.</exception>
+    // Generates a diamond pattern with the given character as the midpoint.
     public void Generate(char c)
     {
         // If c is not alphabetic nothing happens.
@@ -40,12 +36,7 @@ public class DiamondGenerator
         }
     }
 
-    /// <summary>
-    /// Generates a single line of the diamond based on the current line number.
-    /// </summary>
-    /// <param name="currentLine">The current line number.</param>
-    /// <param name="midpoint">The midpoint.</param>
-    /// <returns>A string representing a line of the diamond.</returns>
+    // Generates a single line of the diamond based on the current line number.
     private static string GetLine(int currentLine, int midpoint)
     {
         var currentChar = (char)('A' + currentLine);
