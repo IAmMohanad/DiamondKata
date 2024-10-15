@@ -22,15 +22,15 @@ Console.WriteLine(writer.ToString());
 or
 
 ```csharp
-> diamond.exe A
+> DiamondKata.exe A
   A
 
-> diamond.exe B
+> DiamondKata.exe B
    A
   B B
    A
 
-> diamond.exe C
+> DiamondKata.exe C
     A
    B B
   C   C
