@@ -14,7 +14,6 @@ public class DiamondGenerator
     // Generates a diamond pattern with the given character as the midpoint.
     public void Generate(char c)
     {
-        // If c is not alphabetic nothing happens.
         var input = char.ToUpper(c);
 
         if (input is < 'A' or > 'Z')
