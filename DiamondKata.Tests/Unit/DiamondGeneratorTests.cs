@@ -1,4 +1,4 @@
-﻿namespace DiamondKata.Tests;
+﻿namespace DiamondKata.Tests.Unit;
 
 public class DiamondGeneratorTests : IDisposable
 {
